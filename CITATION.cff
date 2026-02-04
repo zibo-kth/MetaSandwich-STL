@@ -1,10 +1,10 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it."
-title: "STransLAMP"
+title: "MetaSandwich-STL"
 type: software
 authors:
   - family-names: Liu
     given-names: Zibo
 year: 2026
-url: "https://github.com/zibo-kth/STransLAMP"
+url: "https://github.com/zibo-kth/MetaSandwich-STL"
 license: BSD-3-Clause

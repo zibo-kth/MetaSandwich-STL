@@ -1,4 +1,4 @@
-# STransLAMP Enhanced - Acoustic Metamaterial Panel Analysis
+# MetaSandwich-STL (formerly STransLAMP) — Acoustic Metamaterial Panel STL Toolbox
 ## Sound Transmission Loss Calculator with Resonator Enhancement
 
 **Author:** Zibo Liu (zibo@kth.se)  
@@ -9,7 +9,7 @@
 
 ## 🎯 Overview
 
-STransLAMP Enhanced is a comprehensive MATLAB toolbox for calculating sound transmission loss of both traditional and **metamaterial-enhanced acoustic panels**. This version provides dramatic improvements in acoustic performance through resonator integration and offers a complete, user-friendly analysis environment.
+MetaSandwich-STL is a comprehensive MATLAB toolbox for calculating sound transmission loss (STL) of both traditional and **metamaterial-enhanced acoustic panels**. It provides a complete, user-friendly analysis environment with resonator-enabled metamaterial extensions.
 
 ### 🚀 Key Enhanced Features
 
@@ -26,7 +26,7 @@ STransLAMP Enhanced is a comprehensive MATLAB toolbox for calculating sound tran
 
 ## Quick Start
 
-### Running STransLAMP
+### Running MetaSandwich-STL
 
 ```matlab
 % Start the enhanced STransLAMP interface
