@@ -1,10 +1,12 @@
 function tau = tauOblique(z, theta)
-%%% this function reture the transmission coefficient of a panel under the
-%%% impedance z for the angle of theta
+%%% Transmission coefficient of a panel at oblique incidence.
+%%% z: impedance function handle, z(theta) -> Z(f,theta)
+%%% theta: incidence angle [rad]
 
-    parameter_pressure_acoustics
-    
-    tau = abs(1+z(theta)*cos(theta)/2/zc).^(-2);
+    % Avoid legacy script-side effects; use struct-based parameters.
+    ac = load_acoustic_parameters();
+    zc = ac.zc;
 
+    tau = abs(1 + z(theta) * cos(theta) / (2 * zc)).^(-2);
 
 end

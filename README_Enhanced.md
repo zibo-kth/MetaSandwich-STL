@@ -3,7 +3,7 @@
 
 **Author:** Zibo Liu (zibo@kth.se)  
 **Enhanced:** 2025  
-**License:** Open Source - Please cite relevant research papers when using this code
+**License:** BSD-3-Clause (see `LICENSE`).
 
 ---
 
