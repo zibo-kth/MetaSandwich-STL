@@ -1,5 +1,5 @@
 function varargout = InputHandlers(varargin)
-    %% Input Handler Functions for STransLAMP
+    %% Input Handler Functions for MetaSandwich-STL (formerly STransLAMP)
     % Collection of functions to handle user input for different calculation types
     %
     % Usage:

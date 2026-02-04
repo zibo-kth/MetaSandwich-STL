@@ -1,5 +1,5 @@
 function PlottingFunctions(func_name, results, params)
-    %% Plotting Functions for STransLAMP Results - Fixed Version
+    %% Plotting Functions for MetaSandwich-STL Results (formerly STransLAMP) - Fixed Version
     % Collection of functions to plot and visualize transmission loss results
     %
     % Usage:

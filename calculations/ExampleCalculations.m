@@ -2,7 +2,7 @@ function ExampleCalculations()
     %% Example Calculations for STransLAMP
     % Demonstrates metamaterial panel enhancement with comparison plot only
     
-    fprintf('=== STransLAMP Metamaterial Demo ===\n');
+    fprintf('=== MetaSandwich-STL Metamaterial Demo (formerly STransLAMP) ===\n');
     fprintf('Generating metamaterial enhancement comparison plot...\n\n');
     
     % Run metamaterial panel example (figure 4 only)
@@ -41,7 +41,7 @@ end
 function create_comparison_plot(results)
     %% Create comparison plot similar to original main.m
     
-    figure('Name', 'STransLAMP Example - Curved Double Wall Analysis', 'Position', [300, 300, 1000, 700]);
+    figure('Name', 'MetaSandwich-STL Example - Curved Double Wall Analysis', 'Position', [300, 300, 1000, 700]);
     
     % Plot transmission loss curves
     c1 = semilogx(results.frequency, results.transmission_loss_panel1, ':', 'LineWidth', 1.5, 'Color', [0.8 0.4 0.2]);
@@ -63,7 +63,7 @@ function create_comparison_plot(results)
     set(gca, 'TickLabelInterpreter', 'latex');
     
     % Add title with enhanced information
-    title('Enhanced STransLAMP: Curved Double Wall Analysis', 'FontSize', 18, 'Interpreter', 'latex');
+    title('MetaSandwich-STL: Curved Double Wall Analysis', 'FontSize', 18, 'Interpreter', 'latex');
     
     % Add text box with calculation details
     textstr = {sprintf('Panel 1: %s (%.1f mm, R=%.1f m)', results.panel1.material_name, ...
@@ -81,7 +81,7 @@ end
 function create_metamaterial_comparison_plot(results)
     %% Create comparison plot highlighting metamaterial improvement
     
-    figure('Name', 'STransLAMP Enhanced Demo - Metamaterial Improvement', 'Position', [400, 200, 1000, 700]);
+    figure('Name', 'MetaSandwich-STL Demo - Metamaterial Improvement', 'Position', [400, 200, 1000, 700]);
     
     % Plot host panel and metamaterial transmission loss
     host_line = semilogx(results.frequency, results.base_panel.transmission_loss_oblique, ...

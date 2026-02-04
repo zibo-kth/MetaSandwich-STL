@@ -29,8 +29,8 @@ MetaSandwich-STL is a comprehensive MATLAB toolbox for calculating sound transmi
 ### Running MetaSandwich-STL
 
 ```matlab
-% Start the enhanced STransLAMP interface
-STransLAMP_Main()
+% Start the MetaSandwich-STL interface
+MetaSandwich_STL_Main()  % (or legacy: STransLAMP_Main())
 ```
 
 ### Direct Function Usage

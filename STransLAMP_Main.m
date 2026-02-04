@@ -1,11 +1,11 @@
-%% STransLAMP - Sound Transmission Loss of Acoustic Metamaterial Panels
+%% MetaSandwich-STL (formerly STransLAMP) - Sound Transmission Loss of Acoustic Metamaterial Panels
 %% Enhanced Version with Improved Structure and User Experience
 %% Author: Zibo Liu (zibo@kth.se)
 %% Enhanced: 2025
 %% License: Open Source - Please cite relevant research papers when using this code
 
 function STransLAMP_Main()
-    %% Main interface for STransLAMP calculations
+    %% Main interface for MetaSandwich-STL calculations (backward compatible entrypoint: STransLAMP_Main)
     % This function provides a user-friendly interface for calculating
     % sound transmission loss of various panel configurations
     
@@ -40,7 +40,7 @@ function STransLAMP_Main()
             case 7
                 display_help();
             case 0
-                fprintf('\nThank you for using STransLAMP!\n');
+                fprintf('\nThank you for using MetaSandwich-STL (formerly STransLAMP)!\n');
                 break;
             otherwise
                 fprintf('\nInvalid choice. Please try again.\n');
@@ -55,7 +55,7 @@ function display_welcome()
     %% Display welcome message
     fprintf('\n');
     fprintf('========================================================\n');
-    fprintf('    STransLAMP - Sound Transmission Loss Calculator    \n');
+    fprintf('    MetaSandwich-STL - Sound Transmission Loss Calculator    \n');
     fprintf('    for Acoustic Metamaterial Panels                  \n');
     fprintf('========================================================\n');
     fprintf('Author: Zibo Liu (zibo@kth.se)\n');
@@ -169,7 +169,7 @@ end
 function display_help()
     %% Display help and documentation
     fprintf('\n=== HELP & DOCUMENTATION ===\n');
-    fprintf('\n🎯 STransLAMP Enhanced - Sound Transmission Loss Analysis for Acoustic Metamaterial Panels\n\n');
+    fprintf('\n🎯 MetaSandwich-STL - Sound Transmission Loss Analysis for Acoustic Metamaterial Panels\n\n');
     
     fprintf('=== PANEL CONFIGURATIONS ===\n');
     fprintf('1. SINGLE PANEL: Flat panel with specified material properties\n');

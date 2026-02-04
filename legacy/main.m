@@ -1,4 +1,4 @@
-%% STransLAMP (Sound Transmission Loss of Acoustic Metamaterial Panels)
+%% MetaSandwich-STL (legacy script; formerly STransLAMP)
 %% Author: Zibo Liu
 %% Email: zibo@kth.se
 %% Date: 2021-05-18
