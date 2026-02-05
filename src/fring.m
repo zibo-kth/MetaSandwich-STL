@@ -1,9 +1,7 @@
 function fri = fring(E0, nu, rho, R)
+%FRING Ring frequency of a panel.
+%
+% This helper should not rely on injected variables from scripts.
 
-%%% this function reture the ring frequency of the panel
-parameter_pressure_acoustics
-
-fri = sqrt(E0/rho/(1-nu^2))/(2*pi*R);
-
-
+fri = sqrt(E0./rho./(1-nu.^2)) ./ (2*pi*R);
 end

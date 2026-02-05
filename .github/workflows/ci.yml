@@ -1,0 +1,19 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  octave-smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Octave
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y octave
+      - name: Run smoke test
+        run: |
+          octave --version
+          octave -qf --eval "cd(pwd); addpath(genpath(pwd)); run('tests/smoke_test.m');"
