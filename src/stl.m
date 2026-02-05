@@ -1,9 +1,15 @@
-function Ve_STL = fun_stl(tau)
-%%% this function return the sound transmission loss for the incident angle
-%%% theta = pi/3
+function Ve_STL = stl(tau)
+%STL Backward-compatible wrapper for sound transmission loss.
+%
+% Historically this repository provided `fun_stl(tau)` but the code lived in
+% `stl.m` with a mismatched function name, which breaks in Octave.
+%
+% Preferred API:
+%   fun_stl(tau)
+%
+% Backward-compatible API:
+%   stl(tau)
 
-% parameter_pressure_acoustics
-% Ve_tau = abs(1+Ve_Z*cos(theta)/2/rho0/c0).^(-2);
-Ve_STL = -10*log10(tau);
+Ve_STL = fun_stl(tau);
 
 end
