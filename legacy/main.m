@@ -10,7 +10,8 @@ clc
 close
 
 addpath(genpath('./src/')); parameter_path; parameter_aluminum; parameter_pvc
-parameter_pressure_acoustics
+air = air_properties();
+rho0 = air.rho0; c0 = air.c0; zc = air.zc; f = air.f; omega = air.omega; k = air.k;
 
 % the following example is the calculation for a curved double wall
 %% calculation

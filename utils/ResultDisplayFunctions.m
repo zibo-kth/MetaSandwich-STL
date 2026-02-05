@@ -1,5 +1,5 @@
 function ResultDisplayFunctions(func_name, results, params)
-    %% Result Display Functions for MetaSandwich-STL (formerly STransLAMP)
+    %% Result Display Functions for MetaSandwich-STL
     % Collection of functions to display calculation results in a formatted way
     %
     % Usage:

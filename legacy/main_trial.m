@@ -5,7 +5,8 @@ close
 
 parameter_path
 parameter_aluminum
-parameter_pressure_acoustics
+air = air_properties();
+rho0 = air.rho0; c0 = air.c0; zc = air.zc; f = air.f; omega = air.omega; k = air.k;
 parameter_pvc
 %% use function to calculate the stl
 theta = pi/3;

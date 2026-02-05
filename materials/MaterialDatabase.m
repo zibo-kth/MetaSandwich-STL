@@ -1,5 +1,5 @@
 function material = MaterialDatabase(material_name)
-    %% Material Database for MetaSandwich-STL (formerly STransLAMP)
+    %% Material Database for MetaSandwich-STL
     % Returns material properties for common materials used in acoustic panels
     %
     % Input:

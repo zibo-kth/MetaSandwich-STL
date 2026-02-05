@@ -19,4 +19,8 @@ assert(isfinite(fri) && fri > 0);
 stl = fun_stl(0.5);
 assert(isfinite(stl));
 
+% Run headless demo (no plots)
+setenv('METASANDWICH_NO_PLOTS','1');
+run_demo();
+
 fprintf('OK. fcr=%.3f Hz, fri=%.3f Hz, STL(0.5)=%.3f dB\n', fcr, fri, stl);

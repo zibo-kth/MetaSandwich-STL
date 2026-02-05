@@ -1,8 +1,8 @@
 function ExampleCalculations()
-    %% Example Calculations for STransLAMP
+    %% Example Calculations for MetaSandwich-STL
     % Demonstrates metamaterial panel enhancement with comparison plot only
     
-    fprintf('=== MetaSandwich-STL Metamaterial Demo (formerly STransLAMP) ===\n');
+    fprintf('=== MetaSandwich-STL Metamaterial Demo ===\n');
     fprintf('Generating metamaterial enhancement comparison plot...\n\n');
     
     % Run metamaterial panel example (figure 4 only)
